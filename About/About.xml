@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<packageId>frog.colonistwages</packageId>
+	<name>Colonist Wages</name>
+	<author>frog</author>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<description>Adds wages to colonists - colonists expect a % of the wealth of your colonist every quadrum and will get annoyed if underpaid or a payday is missed!</description>
+</ModMetaData>

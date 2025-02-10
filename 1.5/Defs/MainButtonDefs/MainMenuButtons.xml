@@ -1,0 +1,11 @@
+<Defs>
+  <MainButtonDef>
+    <defName>ColonistWage</defName>
+    <label>wages</label>
+    <description>Set and manage colonist wages.</description>
+    <tabWindowClass>ColonistWages.MainTabWindow_ColonistWage</tabWindowClass>
+    <order>85</order>
+    <minimized>True</minimized>
+    <validWithoutMap>False</validWithoutMap>
+  </MainButtonDef>
+</Defs>

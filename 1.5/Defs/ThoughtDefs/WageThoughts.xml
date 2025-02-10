@@ -1,0 +1,109 @@
+<Defs>
+    <ThoughtDef>
+        <defName>Payday</defName>
+        <label>payday buff</label>
+        <description>It's payday! This colonist is happy to be getting paid.</description>
+        <thoughtClass>Thought_Memory</thoughtClass>
+        <stackLimit>1</stackLimit>
+        <durationDays>15</durationDays>
+        <stackedEffectMultiplier>1</stackedEffectMultiplier>
+        <stages>
+            <li>
+                <label>payday</label>
+                <description>This colonist is happy to be getting paid.</description>
+                <baseMoodEffect>4</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef>
+        <defName>PaydayFail</defName>
+        <label>payday fail</label>
+        <description>It's payday and I DID NOT GET PAID!</description>
+        <thoughtClass>Thought_Memory</thoughtClass>
+        <stackLimit>1</stackLimit>
+        <durationDays>15</durationDays>
+        <stackedEffectMultiplier>1</stackedEffectMultiplier>
+        <stages>
+            <li>
+                <label>payday fail</label>
+                <description>It's payday and I DID NOT GET PAID!</description>
+                <baseMoodEffect>-30</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef>
+        <defName>Paycut</defName>
+        <label>paycut</label>
+        <description>I'm not happy! I got a paycut!</description>
+        <thoughtClass>Thought_Memory</thoughtClass>
+        <stackLimit>1</stackLimit>
+        <durationDays>10</durationDays>
+        <stackedEffectMultiplier>1</stackedEffectMultiplier>
+        <stages>
+            <li>
+                <label>paycut</label>
+                <description>This colonist is very happy due to a paycut.</description>
+                <baseMoodEffect>-20</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef>
+        <defName>Payrise</defName>
+        <label>payrise</label>
+        <description>I'm happy! I got a payrise!</description>
+        <thoughtClass>Thought_Memory</thoughtClass>
+        <stackLimit>1</stackLimit>
+        <durationDays>5</durationDays>
+        <stackedEffectMultiplier>1</stackedEffectMultiplier>
+        <stages>
+            <li>
+                <label>payrise</label>
+                <description>This colonist is very happy due to a pay rise.</description>
+                <baseMoodEffect>10</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef>
+        <defName>Underpaid</defName>
+        <workerClass>colonistwages.FRG_ThoughtWorker_Underpaid</workerClass>
+        <validWhileDespawned>true</validWhileDespawned>
+        <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+        <stages>
+            <li>
+                <label>slightly unpaid</label>
+                <description>This colonist is slightly unpaid.</description>
+                <baseMoodEffect>-3</baseMoodEffect>
+            </li>
+            <li>
+                <label>somewhat unpaid</label>
+                <description>This colonist is somewhat unpaid.</description>
+                <baseMoodEffect>-5</baseMoodEffect>
+            </li>
+            <li>
+                <label>unpaid</label>
+                <description>This colonist is unpaid.</description>
+                <baseMoodEffect>-7</baseMoodEffect>
+            </li>
+            <li>
+                <label>severally unpaid</label>
+                <description>This colonist is severally unpaid.</description>
+                <baseMoodEffect>-20</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef>
+        <defName>NoWage</defName>
+        <workerClass>colonistwages.FRG_ThoughtWorker_NoWage</workerClass>
+        <validWhileDespawned>true</validWhileDespawned>
+        <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+        <stages>
+            <li>
+                <label>no wage</label>
+                <description>This colonist is not getting paid.</description>
+                <baseMoodEffect>-25</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+</Defs>
+
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <LetterDef>
+        <defName>payday_letter</defName>
+        <color>(65, 200, 65)</color>
+        <flashColor>(85, 255, 85)</flashColor>
+        <flashInterval>6</flashInterval>
+        <bounce>false</bounce>
+        <arriveSound>LetterArrive_Good</arriveSound>
+        <description>It was payday - all pawns have been paid.</description>
+    </LetterDef>
+    <LetterDef>
+        <defName>payday_missed_letter</defName>
+        <color>(200, 65, 65)</color>
+        <flashColor>(255, 85, 85)</flashColor>
+        <flashInterval>4</flashInterval>
+        <bounce>true</bounce>
+        <arriveSound>LetterArrive_BadUrgentSmall</arriveSound>
+        <description>Payday has been missed - pawns are upset and morale is dropping.</description>
+    </LetterDef>
+
+</Defs>
